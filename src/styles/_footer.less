@@ -1,0 +1,50 @@
+footer {
+  background-color: @header-background-color; // Usar a mesma cor do header
+  padding: 16px 0;
+  color: @menu-text-color; // Cor do texto igual ao menu do header
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: @menu-text-color;
+}
+
+.footer-menu {
+  display: flex;
+}
+
+.footer-menu li {
+  margin-left: 24px;
+}
+
+.footer-menu li a {
+  color: @menu-text-color;
+  text-decoration: none;
+}
+
+.footer-menu li a:hover {
+  color: @product-button-color; // Altera a cor ao passar o mouse
+}
+
+.footer-social {
+  display: flex;
+  margin-left: auto;
+}
+
+.footer-social a {
+  margin-left: 16px;
+  color: @menu-text-color;
+  font-size: 1.2rem;
+}
+
+.footer-social a:hover {
+  color: @product-button-hover-color; // Altera a cor ao passar o mouse
+}
